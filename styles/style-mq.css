@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@media screen and (orientation: portrait) {
+    main {
+        height: 95vh;
+        width: 300px;
+        display: block;
+    }
+
+    #resultado {
+        width: 100%;
+        height: 40%;
+    }
+
+    #resultado > h2 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #resultado > h3 {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    #circulo {
+        background-image: linear-gradient(to bottom,  hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+        text-align: center;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #total {
+        font-size: 40px;
+    }
+
+    #resultado > p {
+        padding: 5px 50px;
+        font-size: 15px;
+    }
+
+    #titulo-sumar {
+        padding-left: 40px;
+    }
+
+    #pontos {
+        padding: 10px 0px;
+    }
+}

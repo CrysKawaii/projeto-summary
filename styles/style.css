@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'grotesco';
+    src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: white;
+    font-family: 'grotesco';
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.166);
+}
+
+#resultado {
+    width: 50%;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+
+#resultado > h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#resultado > h3 {
+    padding-top: 20px;
+    font-size: 23px;
+}
+
+#resultado > p {
+    padding: 10px 50px;
+    font-size: 18px;
+}
+
+#circulo {
+    background-image: linear-gradient(to bottom,  hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    text-align: center;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px; */
+}
+
+#total {
+    font-size: 80px;
+}
+
+#pontos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#titulo-sumar {
+    margin-top: 10px; 
+    margin-bottom: 20px;
+}
+
+.card {
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 12px 0px 0px 0px;
+}
+
+.textos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textos > p {
+    display: flex;
+    gap: 5px;
+}
+
+.numeros {
+    color: black;
+}
+
+.red {
+    background-color: rgb(244, 234, 234);
+    color: red;
+}
+
+.yellow {
+    background-color: rgb(245, 245, 213);
+    color: rgb(228, 228, 0);
+}
+
+.green {
+    background-color: rgb(197, 255, 197);
+    color: green;
+}
+
+.blue {
+    background-color: rgb(170, 170, 247);
+    color: hsl(234, 85%, 45%);
+}
+
+#botao {
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px;
+    width: 250px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 30px;
+}
+
+#botao:hover {
+    background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+}
